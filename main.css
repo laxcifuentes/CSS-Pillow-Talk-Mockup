@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header, footer {
+    outline: 4px solid red;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div, header > p {
+    margin: 25px;
+} 
+
+aside {
+    outline: 4px solid red;
+    flex-grow: 1;
+    list-style-type: none;
+    justify-content:space-between;
+}
+
+main {
+    outline: 4px solid orange;
+    width: 80%;
+}
+
+footer {
+    text-align: center;
+}
